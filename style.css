@@ -9,6 +9,8 @@
     --gray-800:#1E293B;
     --gray-600: #475569;
     --purple: #7c3aed;
+    --gray-200:#e2e8f0;
+    --gray-400:#94a3b8;
 }
 
 header {
@@ -42,6 +44,7 @@ main {
 .input-box {
     display: flex;
     flex-direction: column;
+    gap: 0,5rem;
 
 }
 
@@ -56,6 +59,23 @@ main {
     font-size: 0,875rem;
     color: var(--gray-800);
     font-weight: 600;
+}
+
+.login input {
+    padding: 1rem 0,35 rem
+    border 1px solid var(var(--gray-200));
+    border-radius: 0,25rem
+}
+
+.login input ::placeholder {
+    color: var(--gray-400);
+
+}
+
+.login input:hover,
+.login input:focus {
+    outline: 1px solid var(--purple)
+
 }
 
 .login a {
