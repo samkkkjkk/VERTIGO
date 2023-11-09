@@ -5,33 +5,37 @@
     font-family: 'Titillium Web', sans-serif;
 
 }
-:root {
-    --gray-800:#1E293B;
-    --gray-600: #475569;
-    --purple: #7c3aed;
-    --gray-200:#e2e8f0;
-    --gray-400:#94a3b8;
-}
 
 header {
     background-image: url(./img/img\ \(1\).png);
     background-size: cover;
-    height: 8,375rem;
+    height: 8.375rem;
     justify-content: center;
     align-items: center;
     display: flex;
     margin-bottom: 3.7rem;
 
 }
+
+:root {
+    --gray-800:#1E293B;
+    --gray-600: #475569;
+    --purple: #7c3aed;
+    --gray-200:#e2e8f0;
+    --gray-400:#94a3b8;
+    --white: #fff;
+
+}
+
 main {
-    padding-inline: 1,5rem;
+    padding-inline: 1.5rem;
 }
 
 .descricao.h1 {
     color: var(--gray-800);
     margin-bottom: 1rem;
-    font-size: 1,5625rem;
-    margin-bottom: 8,8125;
+    font-size: 1.5625rem;
+    margin-bottom: 8.8125;
 
 }
 
@@ -44,7 +48,7 @@ main {
 .input-box {
     display: flex;
     flex-direction: column;
-    gap: 0,5rem;
+    gap: 0.5rem;
 
 }
 
@@ -56,7 +60,7 @@ main {
 }
 
 .login.label {
-    font-size: 0,875rem;
+    font-size: 0.875rem;
     color: var(--gray-800);
     font-weight: 600;
 }
@@ -64,7 +68,7 @@ main {
 .login input {
     padding: 1rem 0,35 rem
     border 1px solid var(var(--gray-200));
-    border-radius: 0,25rem
+    border-radius: 0.25rem
 }
 
 .login input ::placeholder {
@@ -81,7 +85,7 @@ main {
 .login a {
     color: var(--purple);
     text-decoration: none;
-    font-size: 0,875rem;
+    font-size: 0.875rem;
     font-weight: 600;
 
 }
@@ -90,3 +94,14 @@ main {
     text-decoration: underline;
 }
 
+.login button {
+    margin-top: 2.2rem;
+    padding-block: 1.6rem;
+    background: var(--purple);
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--white);
+
+}
