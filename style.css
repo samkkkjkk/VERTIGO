@@ -96,12 +96,23 @@ main {
 
 .login button {
     margin-top: 2.2rem;
+    margin-bottom: 2rem;
     padding-block: 1.6rem;
+    width: 100%;
     background: var(--purple);
     border: none;
     border-radius: 0.4rem;
+
     font-size: 1.6rem;
     font-weight: 700;
     color: var(--white);
+    
+}
 
+.login > p {
+    color: var(--gray-600);
+}
+.login > p a {
+    font-weight: 700;
+    font-size: 1rem;
 }
