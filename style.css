@@ -7,4 +7,9 @@
 }
 header {
     background-image: url(./img/img\ \(1\).png);
+    background-size: cover;
+    height: 8,375rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
