@@ -24,6 +24,7 @@ header {
     --gray-200:#e2e8f0;
     --gray-400:#94a3b8;
     --white: #fff;
+    --light-purple: #9F67FF;
 
 }
 
@@ -109,6 +110,12 @@ main {
     
 }
 
+.login button:hover {
+    background: var(--light-purple);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 .login > p {
     color: var(--gray-600);
 }
@@ -125,12 +132,14 @@ body{
     display: flex;
 }
 
+
 @media(min-width:1000px) {
     header {
         background: none;
         justify-content: flex-start;
         margin: 2.5rem  7rem 7rem;
         height: fit-content;
+
     }
     header img {
         width: 18rem;
@@ -138,15 +147,29 @@ body{
 
     .conteudo{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
     }
 
     main {
         margin-inline: 7rem ;
         max-width: 24rem;
+        padding: 0;
     }
     .bg-desktop {
         display: block;
         width: 200%;
     }
+    .descricao h1 {
+        font-size: 2.25rem ;
+    }
+    .descricao p {
+        font-size: 1rem ;
+
+    }
+
+
 
 } 
