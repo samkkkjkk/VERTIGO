@@ -116,12 +116,34 @@ main {
     font-weight: 700;
     font-size: 1rem;
 }
+
+.bg-desktop {
+    display: none;
+}
+
+body{
+    display: flex;
+}
+
 @media(min-width:1000px) {
     header {
         background: none;
         justify-content: flex-start;
+        padding-inline: 7rem ;
     }
     header img {
+        width: 18rem;
+    }
 
+    .conteudo{
+        width: 100%;
+    }
+
+    main {
+        padding-inline: 7rem ;
+    }
+    .bg-desktop {
+        display: block;
+        width: 200%;
     }
 }
